@@ -36,20 +36,19 @@ class MyApp extends StatelessWidget {
               20,
             ),
           ),
-          
-          hintStyle: const TextStyle(
-              color: Color(0x00ff5c01)), // Set green hint text color
+
+          // Set green hint text color
           labelStyle: const TextStyle(
               color: Color(0x00ff5c01)), // Set green label text color
           // Set green icon color
         ),
         scaffoldBackgroundColor: Colors.white,
- 
         colorSchemeSeed: const Color(0x00ff5c01),
         brightness: Brightness.dark,
         appBarTheme: const AppBarTheme(
             centerTitle: true,
-            titleTextStyle: TextStyle(color: Colors.black,fontWeight: FontWeight.bold,fontSize: 17),
+            titleTextStyle: TextStyle(
+                color: Colors.black, fontWeight: FontWeight.bold, fontSize: 17),
             color: Color(0x00ff5c01),
             foregroundColor: Colors.black),
       ),

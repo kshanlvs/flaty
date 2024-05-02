@@ -1,5 +1,6 @@
 import 'package:flaty/assets_path.dart';
 import 'package:flaty/dashboard/widgets/searchbar.dart';
+import 'package:flaty/route_location.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
@@ -165,7 +166,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 Padding(
                   padding: const EdgeInsets.all(12.0),
                   child: InkWell(
-                    onTap: () => context.go("/details"),
+                    onTap: () => context.go(RouteLocations.faltDetailPage),
                     child: Container(
                       color: Colors.grey.withOpacity(.1),
                       child: Column(
